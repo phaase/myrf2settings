@@ -985,7 +985,7 @@
     "Steering torque filter#":"Number of old samples to use to filter torque from vehicle's steering column (0-32, note that higher values increase effective latency)",
     "Steering torque minimum":0,
     "Steering torque minimum#":"Minimum torque to apply in either direction to overcome steering wheel's 'FFB deadzone' caused by friction",
-    "Steering torque per-vehicle mult":0.8,
+    "Steering torque per-vehicle mult":1,
     "Steering torque per-vehicle mult#":"Per-vehicle steering column torque multiplier (this is a copy of the .CCH value)",
     "Steering torque sensitivity":1,
     "Steering torque sensitivity#":"Sensitivity curve applied to representable torques: 0.0=low 1.0=linear 2.0=high",
@@ -1124,7 +1124,7 @@
     "Steering Wheel Maximum Rotation Default#":"Default maximum wheel range to use when not read from driver, from 40 to 1440 degrees",
     "Steering Wheel Maximum Rotation from Driver":true,
     "Steering Wheel Maximum Rotation from Driver#":"Whether to read the steering wheel rotation from the wheel driver, if possible",
-    "Steering Wheel Range":450,
+    "Steering Wheel Range":620,
     "Steering Wheel Range#":"Degrees of steering wheel rotation, both visual and physical (if available)",
     "Steering Wheel Software Rotation":false,
     "Steering Wheel Software Rotation#":"Whether to limit the maximum steering wheel rotation in software",
@@ -1395,8 +1395,8 @@
       89
     ],
     "Control - Cycle HUD MFDs":[
-      0,
-      7
+      1,
+      57
     ],
     "Control - Dec Front ARB":[
       0,
@@ -1548,7 +1548,7 @@
     ],
     "Control - Headlights":[
       1,
-      53
+      32
     ],
     "Control - Headlights Pulse":[
       0,
@@ -1623,8 +1623,8 @@
       89
     ],
     "Control - Look Left":[
-      1,
-      57
+      0,
+      89
     ],
     "Control - Look Right":[
       0,
@@ -2043,8 +2043,8 @@
       14
     ],
     "Control - Vehicle Status":[
-      1,
-      32
+      0,
+      89
     ],
     "Control - View Next Vehicle":[
       0,
